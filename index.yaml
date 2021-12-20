@@ -3,6 +3,16 @@ entries:
   hyperapi:
   - apiVersion: v2
     appVersion: 0.2.2
+    created: "2021-12-20T08:36:46.524215196Z"
+    description: hyperapi
+    digest: 2660f81b513f2f41977d69ff306bbb0abc20714d453e133048ca79ae5f64e1b5
+    name: hyperapi
+    type: application
+    urls:
+    - https://github.com/micross/helm-charts/releases/download/hyperapi-0.1.2/hyperapi-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 0.2.2
     created: "2021-12-20T08:06:38.455917257Z"
     description: hyperapi
     digest: 8a060ed12cd7f895ab2d03a7b8365cb590de33bdff766b72e317bc25aa09c2e0
@@ -21,4 +31,4 @@ entries:
     urls:
     - hyperapi-0.1.0.tgz
     version: 0.1.0
-generated: "2021-12-20T08:06:38.455929757Z"
+generated: "2021-12-20T08:36:46.524226296Z"
