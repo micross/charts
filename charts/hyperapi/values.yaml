@@ -57,7 +57,7 @@ ingress:
   #      - chart-example.local
 
 args:
-  - '--config=etcd://etcd.default.svc.cluster.local:2379/juapi'
+  - '--config=etcd://etcd-headless.default.svc.cluster.local:2379/juapi'
   - '--listen=0.0.0.0:80'
 
 resources: {}
