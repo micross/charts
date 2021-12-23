@@ -3,6 +3,16 @@ entries:
   hyperapi:
   - apiVersion: v2
     appVersion: 0.2.3
+    created: "2021-12-23T03:46:00.965069173Z"
+    description: A Helm chart for Kubernetes
+    digest: b5c568658ee0ad2fe2dd81c30c38bf4ba179be5e7ba1e0efec4dc12db58e482f
+    name: hyperapi
+    type: application
+    urls:
+    - https://github.com/micross/helm-charts/releases/download/hyperapi-0.1.7/hyperapi-0.1.7.tgz
+    version: 0.1.7
+  - apiVersion: v2
+    appVersion: 0.2.3
     created: "2021-12-22T08:27:54.004324606Z"
     description: A Helm chart for Kubernetes
     digest: 71c73e5e80c010db329e3dd9595c5a9a42cb58c0eda36dee201a2b602efcb2e0
@@ -51,4 +61,4 @@ entries:
     urls:
     - https://github.com/micross/helm-charts/releases/download/hyperapi-0.1./hyperapi-0.1.2.tgz
     version: 0.1.2
-generated: "2021-12-22T08:27:54.004344306Z"
+generated: "2021-12-23T03:46:00.965091074Z"
