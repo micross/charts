@@ -5,10 +5,10 @@
 replicaCount: 1
 
 image:
-  repository: registry.cn-shanghai.aliyuncs.com/redyellow/wuliu
+  repository: micross/hyperapi
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "0.0.1"
+  tag: "0.2.4"
 
 imagePullSecrets: []
 nameOverride: ""
