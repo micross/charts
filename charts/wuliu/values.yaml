@@ -81,3 +81,27 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
+
+env:
+  - name: DB_HOST
+    value: mysql.svc.cluster.local
+  - name: DB_USERNAME
+    value: root
+  - name: DB_PASSWORD
+    value: PASSWORD
+  - name: DB_DATABASE
+    value: wuliu
+  - name: REDIS_HOST
+    value: redis-headless.redis.svc.cluster.local
+  - name: MAIL_SMTP_USERNAME
+    value: hello@example.com
+  - name: MAIL_SMTP_PASSWORD
+    value: your-password
+  - name: MAIL_SMTP_HOST
+    value: smtpdm.aliyun.com
+  - name: MAIL_ALIYUN_DM_ACCESS_KEY_ID
+    value: your-mail-access-key-id
+  - name: MAIL_ALIYUN_DM_ACCESS_SECRET
+    value: your-dm-secret
+  - name: APP_ENV
+    value: prod
