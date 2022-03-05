@@ -1,14 +1,14 @@
-# Default values for hyperapi.
+# Default values for wuliu.
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
 replicaCount: 1
 
 image:
-  repository: micross/hyperapi
+  repository: registry.cn-shanghai.aliyuncs.com/redyellow/wuliu
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "0.2.4"
+  tag: "0.0.1"
 
 imagePullSecrets: []
 nameOverride: ""
