@@ -3,6 +3,16 @@ entries:
   hyperapi:
   - apiVersion: v2
     appVersion: 0.2.4
+    created: "2022-03-05T09:50:27.46941155Z"
+    description: A Helm chart for Kubernetes
+    digest: c30ff4cbb11891c9025bcf8a593f9acf502b200302c276636a929dee8bb6a0dd
+    name: hyperapi
+    type: application
+    urls:
+    - https://github.com/micross/helm-charts/releases/download/hyperapi-0.1.16/hyperapi-0.1.16.tgz
+    version: 0.1.16
+  - apiVersion: v2
+    appVersion: 0.2.4
     created: "2022-03-05T02:26:31.78808801Z"
     description: A Helm chart for Kubernetes
     digest: a4a587af32aec803ddcb0de196ee634273324c4ac0df6db6ae1928b7c93f9f32
@@ -34,6 +44,16 @@ entries:
   wuliu:
   - apiVersion: v2
     appVersion: 0.0.1
+    created: "2022-03-05T09:50:27.638159444Z"
+    description: wuliu
+    digest: 0cbd313db73da63648fae04289ab3c2a0d61c8df5bbb6b38fa13d0fd5665776a
+    name: wuliu
+    type: application
+    urls:
+    - https://github.com/micross/helm-charts/releases/download/wuliu-0.0.6/wuliu-0.0.6.tgz
+    version: 0.0.6
+  - apiVersion: v2
+    appVersion: 0.0.1
     created: "2022-03-05T02:26:31.898947794Z"
     description: wuliu
     digest: 72f5f461c77176fbd9aa4d34c7ef27b3c7636e8f1bfe95fb6218769d82019b83
@@ -62,4 +82,4 @@ entries:
     urls:
     - https://github.com/micross/helm-charts/releases/download/wuliu-0.0.3/wuliu-0.0.3.tgz
     version: 0.0.3
-generated: "2022-03-05T02:26:31.898976296Z"
+generated: "2022-03-05T09:50:27.638186844Z"
